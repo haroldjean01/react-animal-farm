@@ -11,7 +11,7 @@ export default function Main() {
         <Animal
           key={animal.type}
           name={animal.name}
-          image={animal.image}
+          image={animal.type}
           url={animal.url}
           says={animal.says}
           top={animal.top}
